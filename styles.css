@@ -26,6 +26,40 @@ a {
 a:last-child {
     margin-right: 0;
 }
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+p.secondarytext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+}
+.part2{
+    display: flex;
+    margin: 100px 100px;
+
+}
+.img{
+    width: 200px;
+    height: auto;
+}
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    padding: 5px;
+}
+.left{
+    margin-right: 40px;
+}
+
 
 
 
