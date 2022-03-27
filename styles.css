@@ -1,5 +1,5 @@
 body {
-    background-color: #1f2937;
+    
     font-family: "roboto";
 }
 .header {
@@ -8,7 +8,7 @@ body {
     font-weight: 700;
     display: flex;
     justify-content: space-between;
-    margin: 5px 100px;
+    margin: 0px 100px;
     
 
 }
@@ -26,6 +26,11 @@ a {
 a:last-child {
     margin-right: 0;
 }
+.darker {
+    background-color: #1f2937;
+    padding-bottom: 50px;
+    background-size: cover;
+}
 h1 {
     font-size: 48px;
     font-weight: 800;
@@ -38,7 +43,6 @@ p.secondarytext {
     margin-top: 8px;
     flex: 1;
     display: flex;
-    
     align-items: center;
 }
 .part2{
@@ -64,6 +68,38 @@ button {
     margin-right: 40px;
     display: flex;
     flex-direction: column;
+}
+
+.white{
+    background-color: white;
+    text-align: center;
+    margin: 40px 120px 100px 120px;
+  
+}
+.img1,.img2,.img3,.img4{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+.imgs{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+
+}
+.e1,.e2,.e3,.e4{
+    text-align: center;
+    max-width: 120px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+.description {
+    font-size: 18px;
+    color: #1f2937
 }
 
 
