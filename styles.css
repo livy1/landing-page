@@ -11,6 +11,7 @@ body {
     justify-content: space-between;
     margin: 0px 100px;
     padding: 10px 0;
+    flex: 1;
     
 
 }
@@ -50,6 +51,7 @@ p.secondarytext {
 .part2{
     display: flex;
     margin: 100px 100px;
+    flex: 1;
 
 }
 .img{
@@ -107,6 +109,7 @@ h2 {
 .part3 {
     background-color: #e5e7eb;
     font-size: 36px;
+    flex: 1;
 }
 .quote {
     font-style: italic;
@@ -130,6 +133,7 @@ h2 {
     justify-content: space-around;
     margin: 50px 100px;
     border-radius: 6px;
+    flex: 1;
 }
 .call {
     color: #f9faf8;
@@ -159,7 +163,18 @@ h2 {
     padding: 30px 60px;
 }
 
-
+.footer {
+    background-color: #1f2937;
+    margin: 0;
+    padding: 10px 0;
+}
+.copy {
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+}
 
 
 
