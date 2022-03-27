@@ -124,6 +124,44 @@ h2 {
 
 }
 
+.part4 {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px;
+    border-radius: 6px;
+}
+.call {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    
+}
+.sign {
+    color: #e5e7eb;
+    font-weight: 100;
+    margin: 0;
+}
+.b {
+    border-color: #f9faf8;
+    border-style: solid;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   margin-right: 60px;
+
+
+}
+.w{
+    padding: 30px 60px;
+}
+
+
+
+
 
 
 
