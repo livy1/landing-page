@@ -1,6 +1,7 @@
 body {
     
     font-family: "roboto";
+    margin: 0;
 }
 .header {
     color: #f9faf8;
@@ -9,6 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0px 100px;
+    padding: 10px 0;
     
 
 }
@@ -29,7 +31,7 @@ a:last-child {
 .darker {
     background-color: #1f2937;
     padding-bottom: 50px;
-    background-size: cover;
+    
 }
 h1 {
     font-size: 48px;
@@ -100,6 +102,26 @@ h2 {
 .description {
     font-size: 18px;
     color: #1f2937
+}
+
+.part3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+.quote {
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 100px 150px 5px 150px;
+    margin: 0;
+}
+.name {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: right;
+    padding: 0 150px 95px 0;
+    margin: 0;
+
 }
 
 
